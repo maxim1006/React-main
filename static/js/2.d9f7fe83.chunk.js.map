@@ -1,0 +1,1 @@
+{"version":3,"sources":["components/examples/lazy/examples-lazy.component.tsx"],"names":["memo"],"mappings":"gHAAA,2BAMeA,0BAJe,WAC1B,OAAO","file":"static/js/2.d9f7fe83.chunk.js","sourcesContent":["import React, { memo } from 'react';\n\nconst ExamplesLazyComponent = () => {\n    return <>LazyComponent</>;\n};\n\nexport default memo(ExamplesLazyComponent);\n"],"sourceRoot":""}
