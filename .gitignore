@@ -17,7 +17,7 @@ docs/
 .next
 
 # ai
-documents/ai
+documents/ai/admin
 
 # testing
 /coverage

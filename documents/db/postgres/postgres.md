@@ -42,3 +42,11 @@ CREATE TABLE users (
 insert INTO users (name, email)
 VALUES ('Max', 'max@test.com'), ('Aliya', 'al@test.com');
 ```
+
+### запустить докер с postgres
+docker run --name local-postgres -e POSTGRES_PASSWORD=mysecretpassword -p 5432:5432 -d postgres
+
+• Хост: localhost
+• Порт: 5432
+• Пользователь: postgres
+• Пароль: mysecretpassword

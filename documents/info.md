@@ -118,7 +118,7 @@ jobs:
 ## origin / referer / host
 origin - тот кто отсылает
 referer = origin + path
-host - куда делается request (host из Request URL) (nginx проверяет его относительно server_name чтобы перенаправить запрос) 
+host (:authority для HTTP/2 и HTTP/3) - куда делается request (host из Request URL) (nginx проверяет его относительно server_name чтобы перенаправить запрос) 
 
 Если пользователь кликает по ссылке https://target.com со страницы https://example.com/page:
 то
